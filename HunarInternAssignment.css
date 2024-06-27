@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 400; */
+    /* background-color:wheat; */
+}
+
+nav {
+    margin: 10px;
+    padding: 5px;
+}
+
+nav ul {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(70, 129, 124);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    justify-content: space-between;
+    padding: 15px 19px 15px 19px;
+    font-size: 25px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+#home h2 {
+    text-align: center;
+}
+
+h2 {
+    background-color: blueviolet;
+    width: 30vw;
+    padding: 5px;
+    margin-top: 55px;
+}
+
+p {
+    padding: 20px;
+}
+
+.ContactForm {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+form {
+    padding: 10px;
+    margin: 10px;
+}
+
+form button {
+    margin: 5px 5px;
+}
+
+#ContactForm input button {
+    padding: 5px 0px 5px 0px;
+}
+ 
+.container {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.code-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.code-line {
+    opacity: 0;
+    animation: showLine 3s forwards;
+}
+
+@keyframes showLine {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Add delays to each line */
+.code-line:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.code-line:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.code-line:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.code-line:nth-child(4) {
+    animation-delay: 3s;
+}
+
+.welcome {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.side {
+    justify-content: space-between;
+}
+
+.about button {
+    margin: 10px;
+}
+
+.skills {
+    margin: 2px;
+    padding: 2px;
+}
+
+/* .sideone{
+    text-align: right;
+} */
+.column{
+    float:left;
+    width:50%;
+    /* padding:10px; */
+    height:300px;
+    /* margin:10px; */
+}
+.column2{
+    float:right;
+    width:50%;
+    /* padding:10px; */
+    height:300px;
+    /* margin:10px; */
+}
+.column h3{
+    
+    text-decoration: underline;
+}
+.column h3{
+    
+    text-decoration: underline;
+}
+/* .skills2{
+    float:right;
+    width:25%;
+    padding:10px;
+} */
+.row:after{
+    content:" ";
+    display: table;
+    clear:both;
+      margin:10px;
+    /* padding:15px; */
+}
+#skills{
+    box-sizing: border-box;
+}
+/* .skills{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: bisque;
+    height:500px;
+    width:800px;
+    border:1px solid bisque;
+    overflow: scroll;
+    margin-left: 0px;
+} */
+ .ourpic img{
+    border-radius:50%;
+    border:6px solid black;
+    /* align-items: right; */
+    float: right;
+    height:230px;
+    width:250px;
+    margin-right: 80px;
+ }
+ .side{
+    margin: 10px;
+    padding: 10px;
+ }
+ .about{
+    margin:2px;
+    padding: 2px;
+ }
+.footer {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+footer div a {
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+footer div p {
+    background-color: black;
+    color: white;
+}
